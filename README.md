@@ -18,7 +18,15 @@
 
 ## 同步记录
 
+- 2026-09-17：已同步 `mattpocock/skills@959a8e9` 对 `retro` 的 deterministic checks 指引，并补齐既有的 `Skills` 行为说明；由 Codex 自动翻译，维护 commit 待提交后回填。
 - 2026-08-25：已同步 `mattpocock/skills@6654f6b` 的内容变化；由 Codex 自动翻译并通过本地结构、行为不变量和 Markdown 检查，维护 commit 为 `df042c8`，PR 为 [#29](https://github.com/vinvcn/mattpocock-skills-zh-CN/pull/29)。该工作使用 `/Users/hcc/projects/mattpocock-skills-zh-CN` 作为持久化维护副本。
+
+本次同步验证：
+
+- [x] 翻译结构、frontmatter、安装路径与 license invariant 检查
+- [x] 公开 skill 索引与 beta skill policy 检查
+- [x] Markdown、行为关键内容与 patch hygiene 检查
+- [x] 英文残留人工复核
 
 自动维护流程见 [`docs/maintenance/codex-sync.md`](./docs/maintenance/codex-sync.md)。
 
